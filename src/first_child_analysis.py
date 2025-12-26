@@ -25,7 +25,7 @@ def first_child_analysis(input_path, save_path):
     fig, ax = plt.subplots(figsize=(10,6))
 
     # Define colors
-    gender_colors = {"Male": "#1f77b4", "Female": "#d62728"}
+    gender_colors = {"Male": "#1f77b4", "Female":  "#E38AAE"}
     fc_alpha = {"Yes": 1.0, "No": 0.4}  # First child darker, not first child lighter
 
     for i, gender in enumerate(genders):

@@ -3,7 +3,8 @@ from src.data_preparation import prepare_data
 from src.score_statistics import run_score_statistics
 from src.gender_analysis import gender_mean_scores
 from src.first_child_analysis import first_child_analysis
-from src.study_hours_analysis import study_hours_analysis
+from src.score_relationships import score_relationships
+from src.visualisation import build_dashboard
 
 # -----------------------------
 # File paths
@@ -20,9 +21,7 @@ SCORE_STATISTICS_PATH = os.path.join(PLOTS_DIR, "score_statistics")
 GENDER_PATH = os.path.join(PLOTS_DIR, "gender_analysis")
 FIRST_CHILD_ANALYSIS_PATH = os.path.join(PLOTS_DIR, "first_child_analysis")
 STUDY_HOURS_PATH = os.path.join(PLOTS_DIR, "study_hours")
-#SCORE_STATISTICS_PATH = os.path.join(PLOTS_DIR, "score_statistics")
-
-
+PARENT_MARITAL_PATH = os.path.join(PLOTS_DIR, "parent_marital_status")
 INTERACTIVE_HTML_PATH = os.path.join(INTERACTIVE_DIR, "index.html")
 
 
@@ -39,7 +38,9 @@ def main():
 
     first_child_analysis(PROCESSED_DATA,FIRST_CHILD_ANALYSIS_PATH)
 
-    study_hours_analysis(PROCESSED_DATA,STUDY_HOURS_PATH)
+    score_relationships(PROCESSED_DATA,PARENT_MARITAL_PATH)
+
+    build_dashboard(PROCESSED_DATA,INTERACTIVE_HTML_PATH)
 
 
 
