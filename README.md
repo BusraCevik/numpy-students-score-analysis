@@ -62,7 +62,7 @@ The raw CSV data is stored under `data/raw` and preprocessed into `data/processe
 
 
 #### Interactive Dashboard (LIVE)
-🖱️: <a href="docs/index.html" target="_blank">View Interactive Dashboard</a>
+🖱️: <a href="index.html" target="_blank">View Interactive Dashboard</a>
 
 ---
 
