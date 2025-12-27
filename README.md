@@ -110,17 +110,14 @@ numpy-student-score-analysis/
 
 ## 🧠 Analyses Implemented
 
-### 1️⃣ Score Distributions
+### Score Distributions
 Distribution of Math, Reading, and Writing scores across all students.
 
-### 2️⃣ Gender Analysis
+### Gender Analysis
 Average scores by gender.
 
-### 3️⃣ First-Child & Gender Analysis
+### First-Child & Gender Analysis
 Comparison of average scores for first-child vs non-first-child students across genders.
 
-### 4️⃣ Study Hours Analysis
-Exploring how weekly study hours affect average scores.
-
-### 5️⃣ Parent Marital Status Analysis
+### Parent Marital Status Analysis
 Impact of family structure on student performance.
